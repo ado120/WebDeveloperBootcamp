@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FormSolution</title>
+</head>
+<body>
+
+
+	1. forgot to add for and id
+	2. add name to input types
+	3. Needed to add name and value for gender input types
+
+	<h1>Register</h1>
+
+	<form>
+		<label for="first">First Name: </label>              <!-- Forgot to add for and id -->
+		<input name="first" id="first" type="text" placeholder="John" required>
+
+		<label for="last">Last Name: </label>
+		<input name="last" id="last" type="text" placeholder="Smith" required>
+
+		<div>
+		<label for="male">Male</label>
+		<input id="male" name="gender" type="radio" value="male">
+		<label for="female">Female</label>
+		<input id="female" name="gender" type="radio" value="female">
+		<label for="other">Other</label>
+		<input id="other" name="gender" type="radio" value="other">
+		</div>	
+
+		<div>
+		<label for="email">Email: </label>
+		<input id="email" type="email" name="email" placeholder="your email">
+		<label for="email">Password: </label>
+		<input id="email" type="password" name="password" placeholder="your password" minlength="5" maxlength="10">
+		</div>
+
+		<div>
+		<label>Birthday: </label>
+		<select name="month">
+			<option>Month</option>
+			<option>January</option>
+			<option>Feb</option>
+			<option>March</option>
+		</select>
+		<select name="day">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+		<select name="year">
+			<option>Year</option>
+			<option>1999</option>
+			<option>2000</option>
+			<option>2001</option>
+		</select>
+		</div>
+
+		<div>
+		<label>I agree to the terms and conditions</label>
+		<input type="checkbox" name="agree">
+		</div>
+
+		<input type="submit">
+	</form>
+
+</body>
+</html>

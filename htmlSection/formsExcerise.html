@@ -35,7 +35,7 @@
 		</label>
 		<label>
 			Password: 
-			<input type="password" name="password" placeholder="your password" minlength="5" maxlength="10">
+			<input type="password" name="password" pattern=".{5,10}" required title="Please enter 5 to 10 characters">
 		</label>
 		</div>
 
@@ -62,8 +62,8 @@
 		</div>
 
 		<div>
-		<label>I agree to the terms and conditions</label>
-		<input type="checkbox" name="agree">
+			<label for="agreed">I agree to the terms and conditions</label>
+			<input id="agreed" type="checkbox" name="agreed">
 		</div>
 
 		<input type="submit">

@@ -1,0 +1,22 @@
+h1 {
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+*/
+border: 8px dashed purple;
+}
+
+h4 {
+	background: rgb(255,100,80);
+}
+
+/*width
+color
+style*/
+
+body{
+	background: pink;
+	/*background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpSW0YXNEIab_gLAIUwFCB5MXktc3dpLNAto62nNt7sCDiJJYBsQ);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}

@@ -1,0 +1,26 @@
+/* font-family */
+p {
+  font-family: Raleway;
+}
+
+h1 {
+  font-family: Indie Flower;
+}
+
+/* font-size */
+
+h1 {
+  font-size: 100px;
+}
+
+/* font-weight */
+
+p {
+  font-weight: normal;
+}
+
+/* text-align */
+
+h1 {
+  text-align: center;
+}
